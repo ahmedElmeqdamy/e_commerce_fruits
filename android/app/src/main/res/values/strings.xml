@@ -1,0 +1,8 @@
+<resources>
+    <!-- Facebook Config -->
+    <string name="facebook_app_id">769906619086931</string>
+    <string name="fb_login_protocol_scheme">fb769906619086931</string>
+
+    <!-- App Name -->
+    <string name="app_name">Fruits Hub</string>
+</resources>

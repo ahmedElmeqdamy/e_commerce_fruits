@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../../../../../core/services/shared_prefrences_singleton.dart';
+
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
 
@@ -35,8 +37,13 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   }
 
   void excuteNavigation() {
-    Future.delayed(Duration(seconds: 1), () {
-      Navigator.pushReplacementNamed(context, 'onBoardingView');
+    bool isBoardView = Prefs.getBool('isOnBoardingViewSeen');
+    Future.delayed(Duration(seconds: 3), () {
+      if (isBoardView) {
+        Navigator.pushReplacementNamed(context, 'loginView');
+      } else {
+        Navigator.pushReplacementNamed(context, 'onBoardingView');
+      }
     });
   }
 }

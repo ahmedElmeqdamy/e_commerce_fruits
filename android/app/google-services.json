@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "210766909465-v0ac43es3ak7t981ncjrahqk5k6cikf6.apps.googleusercontent.com",
+          "client_id": "210766909465-0fpgih3mirr3nf306p7h7l6r3k16oh0a.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.fruits_hub",
-            "certificate_hash": "f6a34500731712c8cdd050b0ecc8f124fe00072a"
+            "certificate_hash": "42a85b22cd0fa35672334d2565f16173066c0809"
           }
         },
         {
